@@ -1,5 +1,6 @@
+#mi primer comentario
 - name: Check connectivity to target servers
-  hosts: all
+  hosts: todos
   tasks:
-    - name: Ping test 03
+    - name: Ping test 04
       ping:
